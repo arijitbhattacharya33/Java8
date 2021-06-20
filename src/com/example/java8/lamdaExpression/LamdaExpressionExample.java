@@ -1,10 +1,16 @@
 package com.example.java8.lamdaExpression;
 
+
+interface Lamda{
+	public void lamdaMethod();
+}
+
 public class LamdaExpressionExample {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		Lamda lamda = () -> System.out.println("Hello lamda!");
+		lamda.lamdaMethod();
 	}
 
 }
